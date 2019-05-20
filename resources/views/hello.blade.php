@@ -9,10 +9,16 @@ h1 { font-size:100pt; text-align:right; color:#eee;
 </style>
 </head>
 <body>
-<body>
-   <h1>Index</h1>
-   <p><?php echo $msg; ?></p>
-   <p><?php echo date("Y年n月j日"); ?></p>
-</body>
+   <h1>Blade/Index</h1>
+   @if ($msg != '')
+   <p>こんにちは、{{$msg}}さん。</p>
+   @else
+   <p>何か書いてください</p>
+   @endif
+   <form method="POST" action="/hello">
+      {{ csrf_field() }}
+      <input type="text" name="msg">
+      <input type="submit">
+   </form>
 </body>
 </html>
