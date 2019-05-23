@@ -10,14 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Middleware\HelloMiddleware;
 
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('hello/{id?}', 'HelloController@index');
 
-
-Auth::routes();
+Route::get('hello', 'HelloController@index')
+   ->middleware(HelloMiddleware::class);
 
 
 Route::get('/home', 'HomeController@index')->name('home');
