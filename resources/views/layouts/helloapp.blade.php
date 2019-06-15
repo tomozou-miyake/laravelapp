@@ -3,9 +3,8 @@
    <link rel="stylesheet" type="text/css" href="/css/app.css">
    <title>@yield('title')</title>
    <style>
-   body {font-size:16pt; color:#999; margin: 5px; }
-   h1 { font-size:50pt; text-align:right; color:#f6f6f6;
-       margin:-20px 0px -30px 0px; letter-spacing:-4pt; }
+   body {font-size:16pt; color:#fff; margin: 5px; background-color: #FFC7AF	; }
+   h1 { font-size:50pt; text-align:right; color:#f6f6f6; letter-spacing: 4px; }
    ul { font-size:12pt; }
    hr { margin: 25px 100px; border-top: 1px dashed #ddd; }
    th {background-color:#999; color:fff; padding:5px 10px; }
