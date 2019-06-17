@@ -5,6 +5,12 @@
 @section('menubar')
   @parent
   インデックスページ
+  <div class="links">
+    <a href="{{ url('/person/find') }}">検索</a>
+    <a href="{{ url('/person/add') }}">追加</a>
+    <a href="{{ url('/person/edit?id=1')}}">編集</a>
+    <a href="{{ url('/person/del?id=1')}}">削除</a>
+  </div>
 @endsection
 
 @section('content')

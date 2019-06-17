@@ -49,17 +49,28 @@
             }
 
             .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
+                width:100px;
+                margin: 50px auto 0px;
+                border: 1px solid #fff;
+                padding: 20px 40px;
+                color: #fff;
+                border-radius: 3px;
+                text-align: center;
+                background-color: #fcc2c2;
             }
 
             .m-b-md {
                 margin-bottom: 30px;
+            }
+            .btn-square {
+                width:100px;
+                margin: 50px auto 0px;
+                border: 1px solid #fff;
+                padding: 20px 40px;
+                color: #fff;
+                border-radius: 3px;
+                text-align: center;
+                background-color: rgba(204, 255, 238, 0.2);
             }
         </style>
     </head>
@@ -85,13 +96,14 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
+                    <a href="{{ url('/hello') }}">Portfolio</a>
+                    <!-- <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a> -->
                 </div>
             </div>
         </div>
