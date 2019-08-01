@@ -24,5 +24,5 @@
 @endsection
 
 @section('footer')
-copyright 2017 tuyano.
+copyright 2019 miyake.
 @endsection

@@ -14,4 +14,6 @@
   <input type="hidden" name="id" value="{{$form->id}}">
   <tr><th>name: </th><td>{{$form->name}}</td></tr>
 
-  
+@section('footer')
+copyright 2019 miyake.
+@endsection

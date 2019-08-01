@@ -26,12 +26,12 @@
            value="{{old('mail')}}"></td></tr>
        <tr><th>age: </th><td><input type="number" name="age"
            value="{{old('age')}}"></td></tr>
-       <tr><th></th><td><input type="submit" 
+       <tr><th></th><td><input type="submit"
            value="send"></td></tr>
    </form>
    </table>
 @endsection
 
 @section('footer')
-copyright 2017 tuyano.
+copyright 2019 miyake.
 @endsection
